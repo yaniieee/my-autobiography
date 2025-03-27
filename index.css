@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: gray;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: black; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: top 30px;;
+}
+
+h2 {
+    text-align: justify;
+    font-size: 1.8em;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: center;
+}
+
+.cirle-img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%; 
+    border: 5px solid black;
+}
+
+div {
+    margin: 30px;
+    max-width: 80%;
+    padding: 30px;
+}
+
+.about-me {
+    margin: 20px auto;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin: 15px 20px;
+    text-align: center;
+}
+
+
+a {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width: 200px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+ol {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 0;
+}
+
+ol li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: grey;
+}
